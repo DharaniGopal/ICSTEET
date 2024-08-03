@@ -15,9 +15,9 @@ const Routes = () => {
   return (
     <>
       {/* <Router> */}
-      {/* <Switch>
+      <Switch>
         <Route path="/" component={Header} />
-      </Switch> */}
+      </Switch>
       <Switch>
         <Route exact path="/" component={HomePageContent} />
       </Switch>
@@ -34,9 +34,9 @@ const Routes = () => {
       <Switch>
         <Route exact path="/ICSTEET/submission" component={PapperSubmission} />
       </Switch>
-      {/* <Switch>
+      <Switch>
         <Route path="/ICSTEET/" component={Footer} />
-      </Switch> */}
+      </Switch>
     </>
   );
 };
